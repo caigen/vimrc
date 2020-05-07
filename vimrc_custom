@@ -1,0 +1,71 @@
+" ==== Init ====
+" touch ~/.vimrc and append one line:
+" source ~/vimrc/vimrc_custom
+
+"======================================================
+set nobackup
+set number
+syntax on
+set hlsearch
+
+"colorscheme darkblue
+colorscheme desert
+"======================================================
+
+
+"======================================================
+filetype indent off
+set autoindent
+" set cindent
+set tabstop=4
+set expandtab
+" set noexpandtab
+"======================================================
+
+
+"======================================================
+"Prefer windows fileformat
+set fileformats=dos,unix
+
+set fileencodings=utf-8,cp936
+"set encoding=cp936
+"set fileencoding=cp936
+"======================================================
+
+
+"======================================================
+"Vexplorer, Sexpplorer
+let g:netrw_winsize = 25
+
+" related vim command: :> & :<
+set shiftwidth=4
+"======================================================
+
+
+"======================================================
+" code completion: ctrl + n (next), ctrl + p (previous)
+
+" multilines comment/uncomment: 
+" 1, crtl + v           // visual block mode
+" 2, h/l/j/k            // select block
+" 3, I (shift + i)      // insert    d (delete)
+
+" multilines indent:
+" 1, v      // visual mode
+" 2, j/k    // select multilines
+" 3, >/<    // indent/unindent
+
+" full-text replacement: %s/source/target/g
+
+" window operations:  (ctrl + w)
+" 1, :vertical split
+" 2, :vertical resize -4
+" 3, :wincmd h/l/j/k
+
+" undo & redo: u / :undo / :redo
+
+" netrw.vim:
+" 1, e .
+" 2, <Enter>
+" 3, -
+"======================================================
